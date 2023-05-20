@@ -8,9 +8,122 @@
 }
 
 .logo {
-    position: absolute;
     width: 31.09px;
     height: 48px;
     margin-top: 40px;
     margin-left: 80px;
+}
+
+main {
+    display: flex;
+    margin-left: 12%;
+    margin-bottom: 50px;
+}
+
+.texto {
+    border: none;
+    color: #0A3871;
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+::placeholder {
+    color: #0A3871;
+    outline: none;
+}
+
+.info {
+    width: 228px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    left: 240px;
+    margin-top: 700px;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btn-encriptador {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    text-align: center;
+    gap: 8px;
+    
+}
+
+.btn-desencriptador {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    gap: 8px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.mensaje {
+    background: white;
+    background-image: url("/imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 400px;
+    height: 904px;
+    top: 40px;
+    bottom: 40px;
+    left: 1000px;
+    border-radius: 32px;
+
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.btn-copiar {
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    text-align: center;
+    gap: 8px;
+    position: absolute;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    top: 850px;
+    left: 1145px;
+
 }
