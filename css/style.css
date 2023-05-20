@@ -16,8 +16,9 @@
 
 main {
     display: flex;
-    margin-left: 12%;
+    margin-left: 240px;
     margin-bottom: 50px;
+
 }
 
 .texto {
@@ -50,7 +51,6 @@ main {
     flex: none;
     order: 1;
     flex-grow: 0;
-    left: 240px;
     margin-top: 700px;
 }
 
