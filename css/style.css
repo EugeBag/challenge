@@ -155,14 +155,14 @@ main {
 }
 
 @media (max-width:540px){
-    .texto, .mensaje{
+    main{
         transform: scale(0.5);
         margin-right: -90px;
     }
 }
 
 @media (max-width: 280px){
-    .texto, .mensaje{
+    main{
         transform: scale(0.3);
     }
 }
