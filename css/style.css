@@ -17,6 +17,7 @@
 main {
     display: flex;
     width: 920px;
+    height: 100%;
     margin-left: 240px;
     margin-bottom: 50px;
 }
