@@ -18,8 +18,9 @@ main {
     display: flex;
     margin-left: 240px;
     margin-bottom: 50px;
-
 }
+
+
 
 .texto {
     border: none;
@@ -152,3 +153,17 @@ main {
     left: 1145px;
 
 }
+
+@media (max-width:540px){
+    .texto, .mensaje{
+        transform: scale(0.5);
+        margin-right: -90px;
+    }
+}
+
+@media (max-width: 280px){
+    .texto, .mensaje{
+        transform: scale(0.3);
+    }
+}
+
